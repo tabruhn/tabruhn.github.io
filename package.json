@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "harp with webpack asset pipline",
+  "scripts": {
+    "bundle-js": "webpack js/app.js js/bundle.js",
+    "watch": "harp server & npm run watch-js",
+    "watch-js": "watchify js/app.js -o js/bundle.js"
+  },
+  "author": "Steve Klise",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.10.1"
+    "harp": "^0.12.1",
+    "watchify": "^0.6.3"
+  }
+}
