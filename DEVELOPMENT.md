@@ -1,5 +1,0 @@
-- Compiling Files
-  - `npm install`
-  - `grunt monitor`, this will compile .scss, .js., .jade files
-- Documentation
-  - If you notice an error in the documentation, please edit the corresponding .html page under jade/page-contents/.

@@ -1,117 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Tyson Bruhn Fullstack Software Engineer Scala Javascript ">
-    <title>Tyson Bruhn - Software Engineer</title>
-    <!-- Favicons-->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
-    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
-    <!--  Android 5 Chrome Color-->
-    <meta name="theme-color" content="#EE6E73">
-    <!-- Begin Inspectlet Embed Code -->
-    <script type="text/javascript" id="inspectletjs">
-    window.__insp = window.__insp || [];
-    __insp.push(['wid', 154264708]);
-    (function() {
-      function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-      if (window.attachEvent) window.attachEvent('onload', __ldinsp);
-      else window.addEventListener('load', __ldinsp, false);
-    })();
-    </script>
-    <!-- End Inspectlet Embed Code -->
-    <!-- CSS-->
-    <link href="css/prism.css" rel="stylesheet">
-    <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <meta charset="utf-8">
+
+      <title>Resume: Tyson Bruhn</title>
+      <meta name="description" content="Resume Tyson Bruhn">
+      <meta name="author" content="Tyson Bruhn">
+
+      <style>
+        html {
+          display: table;
+          margin: auto;
+        }
+
+        body {
+          max-width: 800px;
+          font-family: sans-serif;
+          display: table-cell;
+        }
+
+        small {
+          display: block;
+        }
+
+        .horizontal {
+          padding: unset;
+        }
+
+        .horizontal li {
+          display: inline-block;
+        }
+
+        .text-align-center {
+          text-align: center;
+        }
+
+        h3 {
+          border-bottom: 1px black solid;
+          margin: unset;
+          padding-top: 10px;
+          width: 100%;
+        }
+
+        h3:not(:first-child) {
+          padding: 10px;
+        }
+
+        .row {
+          display: inline-flex;
+        }
+
+        .column:last-child {
+          border-left: 1px black solid;
+          padding-left: 10px;
+        }
+
+        .column:first-child {
+          min-width: 160px;
+          max-width: 160px;
+        }
+
+        .column {
+          padding-top: 10px;
+        }
+
+      </style>
+
   </head>
+
   <body>
-    <header>
-      <div class="container"><a href="#" data-activates="nav-mobile" class="red lighten-2 button-collapse top-nav waves-effect waves-light circle"><i class="mdi-navigation-menu"></i></a></div>
-      <ul id="nav-mobile" class="side-nav fixed">
-        <li class="logo"><a id="logo-container" href="http://tabruhn.github.io/" class="brand-logo"> <h3 class="col s12 light center header"><b> TYSON </b>BRUHN </h3>
-            <!--<object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">Your browser does not support SVG</object></a></li>-->
-        <li class="bold"><a href="index.html" class="waves-effect waves-red">About</a></li>
-        <li class="bold"><a href="portfolio.html" class="waves-effect waves-red">Portfolio</a></li>
-        <li class="bold"><a href="#" class="waves-effect waves-red" onclick="Materialize.toast('<span>Better contact me for this</span><a class=&quot;btn-flat yellow-text&quot; href=&quot mailto:tabruhn@gmail.com&quot;> Click here <a>', 4000)">Résumé</a> </li>
-        <li class="bold"><a href="#" class="waves-effect waves-red" onclick="Materialize.toast('Coming Soon!', 4000)">Blog</a><li>
-            </br>
-          <div class="row">
-            <div class="col s3 waves-effect waves-circle">
-              <a href="http://github.com/tabruhn">
-                <i class="small fa fa-github shadow"></i>
-              </a>
-            </div>
-            <div class="col s3 waves-effect waves-circle">
-              <a href="http://twitter.com/tabruhn">
-                <i class="small fa fa-twitter shadow"></i>
-              </a>
-            </div>
-            <div class="col s3 waves-effect waves-circle">
-              <a href="https://ca.linkedin.com/in/tysonb">
-                <i class="small fa fa-linkedin shadow"></i>
-              </a>
-            </div>
-          </div>
-        </li>
+    <section class="text-align-center">
+      <h1>Tyson A. Bruhn</h1>
+      <ul class="horizontal">
+          Seattle, WA
       </ul>
-    </header>
-    <main>
-      <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-          <div class='row center'>
-            <img class="circle responsive-img z-depth-3" src="images/tyson.png" alt="Tyson Bruhn">
-            <h2 class ="header col s12 light center">Hi, I'm Tyson. </h4>
-            <h5 class ="header col s12 light center">I'm a full stack software engineer, and a recent CS graduate living in Seattle. </h5>
-            <h5 class ="header col s12 light center">I built the popular Hong Kong based startup walkin.to, an app for venues interested in posting unique restaurant experiences and having them displayed in real time.</h5>
-            <h5 class ="header col s12 light center">I like building scalable systems with functional programming and service oriented architecture. I am now considering junior/intermediate Scala and Javascript opportunities.</h5>
-          </div>
-          <div class="row center">
-            <a href="mailto:tabruhn@gmail.com" id="download-button" class="btn-large waves-effect waves-light">Get in Touch</a>
-          </div>
+    </section>
+    <section>
+      Motivated by new and complex challenges. Strong bias for action; obsessed with usability and integrity in my final product. I seek out ways to help elevate the team around me. I strive to be a meticulous maintainer on all my projects and contributions. I wish to work with a team of people who share the same passion for building incredibly useful things for the web. 
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <div class='row'>
+        <div class='column'>
+          Software Engineer<small>TUNE (January 2016 - Present)</small>
+        </div>
+        <div class='column'>
+          At TUNE I've worked on a broad spectrum of projects across our company's diverse tech portfolio. I can dive into any part of our tech stack but the part I enjoy the most is building intuitive, delightful, and maintainable user interfaces and performant web-client architectures. A few of my accomplishments thus far:
+            <ul>
+              <li>
+                Acting as technical lead on many of our NPM private depencies. For example our internal UI component library built in ReactJS. This library includes hundreds of unit tested and documented components distributed via private NPM to developers across the world working on our web applications.
+              </li>
+              <li>
+                Maintaining and developing new web applications with a diverse range of front-end technologies including React/Redux, Node.js, AngularJS, Vue, and even some PHP/jQuery.
+              </li>
+              <li>
+                Advocating for an engaged developer community of front-end engineers via regular meetings, technical presentations, interviewing/hiring, and mentorship.
+              </li>
+              <li>
+                Re-architected our major web application from monolithic fixed ec2 servers to kubernetes autoscaling containerized service oriented application
+              </li>
+            </ul>
         </div>
       </div>
-
-    </main>
-    <footer class="page-footer">
-        <div class="container">
-          <div class="row center">
-            <div class="col s4">
-              <a href="http://github.com/tabruhn" class="tooltipped wave-effect wave-circle" data-position="top" data-delay="50" data-tooltip="Github">
-                <i class="fa fa-github fa-inverse fa-3x shadow"></i>
-              </a>
-            </div>
-            <div class="col s4">
-              <a href="http://twitter.com/tabruhn" class="tooltipped wave-effect wave-circle" data-position="top" data-delay="50" data-tooltip="Twitter">
-                <i class="fa fa-twitter fa-inverse fa-3x shadow"></i>
-              </a>
-            </div>
-            <div class="col s4">
-              <a href="https://ca.linkedin.com/in/tysonb">
-                <i class="fa fa-linkedin fa-inverse fa-3x shadow"></i>
-              </a>
-            </div>
+      <div class='row'>
+        <div class='column'>
+          Freelance/Web Consulting<small>(January 2015 - January 2016)</small>
         </div>
+        <div class='column'>
+          atCipher (Secure cloud encryption service for cloud storage providers.)
+          <ul>
+            <li>
+              Designed and developed a real time data visualization dashboard for log analysis and shared drive activity monitoring.
+            </li>
+          </ul>
+          Scenic Drive Systems (Full service media production platform for films and television shows.)
+          <ul>
+            <li>
+              Implemented redesign of video production dashboard for better user experience on mobile devices.
+            </li>
+          </ul>
         </div>
-
-        <div class="footer-copyright">
-          <div class="container"> © 2015 Copyright Tyson Bruhn
-            <a class="grey-text text-lighten-4 right" href="mailto:tabruhn@gmail.com">Contact</a>
-          </div>
+      </div>
+      <div class='row'>
+        <div class='column'>
+          Software Engineer/Techincal Director <small>Walkin.to (June 2014 – January 2015)</small>
         </div>
-    </footer>
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-2.1.1.min.js"><\/script>'); }
-    </script>
-    <script src="js/jquery.timeago.min.js"></script>
-    <script src="js/prism.js"></script>
-    <script src="bin/materialize.js"></script>
-    <script src="js/init.js"></script>
+        <div class='column'>
+          Full stack javascript platform. Built with the node.js framework, meteor.js + mongodb. Shared client/server resources with isomorphic packaged build system.
+        </div>
+      </div>
+      <div class='row'>
+        <div class='column'>
+          Programmer/Analyst<small>BankData Services (November 2010 - August 2012)</small>
+        </div>
+        <div class='column'>
+          Developed core banking software for several small regional banks. (C, RPG, CL, COBOL)
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Technical</h3>
+      <div class='row'>
+        <div class='column'>
+          Programming
+        </div>
+        <div class='column'>
+          Javascript (Node, React, Redux, Vue & lots of ancient JS), PHP, Python
+        </div>
+      </div>
+      <div class='row'>
+        <div class='column'>
+          Database
+        </div>
+        <div class='column'>
+          SQL (mysql), and a lot of different NoSQL stores (caching, document storage).
+        </div>
+      </div>
+      <div class='row'>
+        <div class='column'>
+          Web Strengths
+        </div>
+        <div class='column'>
+          Web speed (FN performance optimization and tracking), dependency managagement, transpilation, HTTP2, JS concurrency.
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Education</h3>
+      <div class='row'>
+        <div class='column'>
+          Fall 2012-Fall 2014
+        </div>
+        <div class='column'>
+          <b>Masters of Science in Computer Science</b>, Faculty of Engineering at the University of Hong Kong
+        </div>
+      </div>
+    </section>
   </body>
 </html>
